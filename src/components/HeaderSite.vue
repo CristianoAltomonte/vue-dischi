@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="contenitore-header">
-            <img src="./img/svg-spotify.svg" alt="image" class="filter-green">
+            <img src="./img/svg-spotify.svg" alt="image" class="filter-green" type="button">
         </div>
     </div>
 </template>
