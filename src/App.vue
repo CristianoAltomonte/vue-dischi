@@ -18,6 +18,17 @@ export default {
     HeaderSite,
     
   },
+
+  data (){
+    return{
+
+    }
+  },
+
+  methods:  {
+
+  
+  }
   
 };
 </script>

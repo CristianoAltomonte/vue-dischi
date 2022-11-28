@@ -1,9 +1,11 @@
 <template>
-    <div>
+    <header>
+        
         <div class="contenitore-header">
             <img src="./img/svg-spotify.svg" alt="image" class="filter-green" type="button">
         </div>
-    </div>
+
+    </header>
 </template>
 
 <script>
@@ -11,6 +13,12 @@
     export default {
 
         name: "HeaderSite",
+
+        data(){
+            return{
+
+            }
+        }
     }
 
 </script>
