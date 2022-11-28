@@ -1,10 +1,14 @@
 <template>
   <div>
-    <select name="" id="" v-model="valueOptionSelected">
+    <div class="w-25 m-auto p-3">
+      <span class="text-white mx-3">Scegli il tuo Genere</span>
+      <select name="" id="" v-model="valueOptionSelected">
       <option :value="elem" v-for="(elem, index) in arrayGeneri" :key="index">
         {{ elem }}
       </option>
     </select>
+    </div>
+    
     <div class="d-flex flex-wrap contenitore-main">
       <DiscoCard v-for="(elem, index) in funzioneComputed" :key="index" :card="elem" />
     </div>
